@@ -6,7 +6,7 @@ const UserSchema = new mongoose.Schema({
         required: true, // обязательно для заполнения
     },
     email: {
-        type: true,
+        type: String,
         required: true,
         unique: true, // уникальное значение
     },
