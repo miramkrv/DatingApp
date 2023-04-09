@@ -9,7 +9,7 @@ import {registerValidation} from './validations/auth.js';
 import UserModel from './models/Users.js';
 
 mongoose
-    .connect('mongodb+srv://admin:admin@cluster1.gwhuocd.mongodb.net/blog?retryWrites=true&w=majority')
+    .connect('mongodb+srv://puk:puk@puk.gwhuocd.mongodb.net/blog?retryWrites=true&w=majority')
     .then(() => console.log('BD connected'))
     .catch((err) => console.log(err));
 
